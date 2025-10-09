@@ -37,7 +37,5 @@ def insertion_sort(arr):
     print(f"Порівнянь: {comparisons}, Присвоєнь: {assignments}")
     return arr, comparisons, assignments
 
-
-# === Головна частина програми ===
 my_list = [68, 97, 12, 15, 31, 40, 22, 50, 53]  # Вхідні дані (варіант №3)
 insertion_sort(my_list)
